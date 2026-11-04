@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Custom 3D printed gifts, signs, decor, and practical prints." />
+  <title>LayerLab Prints | Custom 3D Printing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="LayerLab Prints home">
+      <span class="brand-mark">L</span><span>LayerLab <b>Prints</b></span>
+    </a>
+    <button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Prints</a><a href="#process">How it works</a><a href="#about">About</a><a href="#contact" class="nav-cta">Start a project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">CUSTOM 3D PRINTING • MADE FOR YOU</div>
+        <h1>Ideas are better<br><span>in 3D.</span></h1>
+        <p>Custom name signs, gifts, decor, prototypes and useful prints made one layer at a time.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Bring an idea to life</a>
+          <a class="btn secondary" href="#work">See what I make</a>
+        </div>
+        <div class="mini-proof"><span>✦ Personalized</span><span>✦ Small-batch friendly</span><span>✦ Made locally</span></div>
+      </div>
+      <div class="hero-art" aria-label="Placeholder for featured product image">
+        <div class="orb orb-a"></div><div class="orb orb-b"></div>
+        <div class="printer-card">
+          <div class="printer-top"><i></i><i></i><i></i></div>
+          <div class="build-area"><div class="print-shape"><span></span></div></div>
+          <div class="printer-label">YOUR FEATURED PRINT</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Services"><div>NAME SIGNS <b>✦</b> GIFTS <b>✦</b> HOME DECOR <b>✦</b> PROTOTYPES <b>✦</b> CUSTOM PARTS <b>✦</b> YOUR IDEA <b>✦</b></div></section>
+
+    <section class="section" id="work">
+      <div class="section-heading"><div><span class="eyebrow">THE PRINT SHELF</span><h2>Made to stand out.</h2></div><p>Swap these placeholders with your real product photos and link each card to a shop listing, social post, or order form.</p></div>
+      <div class="product-grid">
+        <article class="product-card coral"><div class="photo"><span>PHOTO</span></div><div class="card-copy"><h3>Personalized Signs</h3><p>Names, rooms, teams, events and gifts.</p><a href="#contact">Customize one →</a></div></article>
+        <article class="product-card yellow"><div class="photo"><span>PHOTO</span></div><div class="card-copy"><h3>Fun & Decor</h3><p>Conversation pieces with personality.</p><a href="#contact">Make it yours →</a></div></article>
+        <article class="product-card mint"><div class="photo"><span>PHOTO</span></div><div class="card-copy"><h3>Useful Prints</h3><p>Organizers, holders, fixes and clever ideas.</p><a href="#contact">Solve a problem →</a></div></article>
+        <article class="product-card purple"><div class="photo"><span>PHOTO</span></div><div class="card-copy"><h3>Custom Projects</h3><p>Have a sketch or weird idea? Let's build it.</p><a href="#contact">Start from scratch →</a></div></article>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section-heading"><div><span class="eyebrow">EASY AS 1 • 2 • 3</span><h2>From idea to object.</h2></div></div>
+      <div class="steps">
+        <div class="step"><b>01</b><h3>Tell me the idea</h3><p>Send a reference, sketch, dimensions, colors, or just describe what you're imagining.</p></div>
+        <div class="step"><b>02</b><h3>Dial in the design</h3><p>We'll settle the details before it hits the printer.</p></div>
+        <div class="step"><b>03</b><h3>Print & deliver</h3><p>Your design comes to life, then it's ready for pickup or shipping.</p></div>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="about-art"><div class="big-number">3D</div><span>YOUR PHOTO / SHOP SHOT</span></div>
+      <div class="about-copy"><span class="eyebrow">WHY LAYERLAB?</span><h2>Small business.<br>Big imagination.</h2><p>I make custom 3D printed products that feel personal, useful, and a little unexpected. No giant minimum orders. No boring catalog. Just good ideas made real.</p><div class="tags"><span>Custom colors</span><span>One-offs welcome</span><span>Design help</span><span>Local maker</span></div></div>
+    </section>
+
+    <section class="chat-section section" id="chat">
+      <div><span class="eyebrow">NEED HELP WITH AN IDEA?</span><h2>Ask the print bot.</h2><p>This area is ready for your chatbot. Replace the placeholder below with your chatbot iframe when you have the embed URL.</p></div>
+      <div class="chat-shell">
+        <div class="chat-bar"><span><i></i> Print Bot</span><small>iframe placeholder</small></div>
+        <div class="iframe-placeholder">
+          <!-- Replace this div with: <iframe src="YOUR_CHATBOT_URL" title="3D printing assistant"></iframe> -->
+          <div class="bot-face">◉‿◉</div><b>Your chatbot will live here</b><span>Replace this placeholder with your iframe embed.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" id="contact">
+      <div><span class="eyebrow">LET'S MAKE SOMETHING</span><h2>Got an idea?<br><em>Let's print it.</em></h2></div>
+      <form id="projectForm">
+        <label>Name<input name="name" placeholder="Your name" required></label>
+        <label>Email<input name="email" type="email" placeholder="you@example.com" required></label>
+        <label>What do you want to make?<textarea name="idea" placeholder="Tell me about your idea..." required></textarea></label>
+        <button class="btn primary" type="submit">Send project request</button>
+        <p class="form-note" id="formNote" aria-live="polite">Demo form only. Connect this to Formspree, Shopify, your email service, or your preferred backend.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">L</span><span>LayerLab <b>Prints</b></span></a><p>Custom 3D printing • Your City, Utah</p><div><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Shop</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
